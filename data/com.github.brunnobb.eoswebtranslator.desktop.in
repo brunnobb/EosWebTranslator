@@ -1,0 +1,17 @@
+[Desktop Entry]
+Name=eOS Web Translator
+GenericName=Web Translator
+Comment=Translate Clipboard text on web
+Categories=Office;Utility;TextTools;
+Exec=com.github.brunnobb.eoswebtranslator
+Icon=com.github.brunnobb.eoswebtranslator
+Terminal=false
+Type=Application
+X-GNOME-Gettext-Domain=eoswebtranslator
+Keywords=Language;Translate;
+Actions=Preferences;
+StartupWMClass=com.github.brunnobb.eoswebtranslator
+
+[Desktop Action Preferences]
+Name=eOS Web Translator Preferences
+Exec=com.github.brunnobb.eoswebtranslator --preferences
